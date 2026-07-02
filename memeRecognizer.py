@@ -42,7 +42,6 @@ while True:
     
     def distance(a, b):
           return math.hypot(a[0]-b[0], a[1]-b[1])
-    print(distance(faces[0][61], faces[0][291]) )
     if(len(lmlist)!=0):
         fingers=[]
         #thumb
