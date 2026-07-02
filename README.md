@@ -185,12 +185,7 @@ opencv-python
 5. Displays corresponding memes on the live camera feed in real time.
 
 
-## 🖼️Demo
 
-Enter the following command or open demo.mp4 from project file
-```bash
-start demo.mp4
-```
 ## 📌 Future Improvements 
 
 •🎯 More hand gestures
