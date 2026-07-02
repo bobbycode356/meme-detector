@@ -7,7 +7,7 @@ import HandTrackingModule as htm
 import FaceMeshModule as fmm
 wCam=1280
 hCam=720
-cap = cv2.VideoCapture(2)
+cap = cv2.VideoCapture(0)
 cap.set(3,wCam)
 cap.set(4, hCam)
 if not cap.isOpened():
@@ -33,7 +33,7 @@ while True:
         print("ERROR: Failed to read frame from camera")
         break
 
-    img=detector.findHands(img)
+    img=detector.findHands(img)    
     lmlist=detector.findPosition(img, draw=False)
     faces=mesh.findFaceMesh(img)
     face_detected = len(faces) > 0
